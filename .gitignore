@@ -79,3 +79,7 @@ celerybeat-schedule
 
 # Spyder project settings
 .spyderproject
+
+# SQLite3 database files
+.sqlite3
+.db
