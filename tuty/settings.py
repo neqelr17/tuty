@@ -77,16 +77,23 @@ WSGI_APPLICATION = 'tuty.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tuty',
-        'USER': 'tuty',
-        'PASSWORD': (
-            'znBjkQzBFoQzDj5FU1FRfMEwZjWoBMCy'
-            'rwvGYBUNZkYBYNxXFXE721udoeEAdF9'),
-        'HOST': 'neqel.neqel.net',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'default.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'tuty',
+#         'USER': 'tuty',
+#         'PASSWORD': (
+#             'znBjkQzBFoQzDj5FU1FRfMEwZjWoBMCy'
+#             'rwvGYBUNZkYBYNxXFXE721udoeEAdF9'),
+#         'HOST': 'neqel.neqel.net',
+#         'PORT': '5432'
+#     }
+# }
 
 
 # Password validation
